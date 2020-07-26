@@ -64,6 +64,13 @@ img {
 
 <script>
 
+<?php
+if (empty($_GET['type'])) { echo "It's Empty!!!"; }
+if (empty($_GET['name'])) { echo "It's Empty!!!"; }
+if (empty($_GET['time'])) { echo "It's Empty!!!"; }
+
+
+?>
 var countDownDate = new Date("<?php echo $_GET['time']?>").getTime();
 
 var x = setInterval(function() {
@@ -88,7 +95,7 @@ var x = setInterval(function() {
     $countdown = "Countdown ended"
     $giveaway = "Giveaway ended"
     $newyear = "Happy 2021"
-    $giveaway = "Merry Xmas <br><img src='https://f.jwwb.nl/public/5/a/7/angie-feestdagen/re8msg/Tree.png'>"
+    $xmas = "Merry Xmas <br><img src='https://f.jwwb.nl/public/5/a/7/angie-feestdagen/re8msg/Tree.png'>"
 
     document.getElementById("demo").innerHTML = $<?php echo $_GET['type']?>;
   }
@@ -99,4 +106,4 @@ var x = setInterval(function() {
 
 </html>
 
-<!-- URL: https://bitbiz.nl/countdown/giveaway.php?type=countdown&name=Test Timer&time=Jul 26, 2020 15:11:00--!>
+<!-- URL: https://bitbiz.nl/countdown/countdown.php?type=countdown&name=Test Timer&time=Jul 26, 2020 15:11:00--!>
