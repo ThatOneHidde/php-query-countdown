@@ -11,7 +11,7 @@ time= Month Day, Year, time. Example: Jul 26, 2021 15:11:00
 
 URL: https://yourwebsite.com/countdown/countdown.php?type=countdown&name=Test Timer&time=Jul 26, 2021 15:11:00
 
-Demo: https://bitbiz.nl/countdown/countdown.php?type=countdown&name=Test%Timer&time=Jul%26,%2021%15:11:00
+Demo: https://bitbiz.nl/countdown/countdown.php?type=countdown&name=Test%20Timer&time=Jul%2026,%202021%2015:11:00
 
 
 
@@ -24,3 +24,5 @@ All types:
   newyear
   
   xmas
+
+IMG: https://bitbiz.nl/IMG/Screenshot_2020-07-26%20https%20bitbiz%20nl.png
