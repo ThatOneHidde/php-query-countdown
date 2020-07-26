@@ -24,5 +24,3 @@ All types:
   newyear
   
   xmas
-
-IMG: https://bitbiz.nl/IMG/Screenshot_2020-07-26%20https%20bitbiz%20nl.png
